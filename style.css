@@ -1,0 +1,153 @@
+body,
+h1,
+h2,
+h3,
+p,
+a,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 0;
+}
+
+/* Feature Cards */
+.feature-card {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  height: 300px;
+}
+
+.feature-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.feature-card .card-body {
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.feature-card .card-text {
+  font-size: 0.99rem;
+  margin-bottom: 0.75rem;
+  transition: transform 0.3s all;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Blog Cards */
+.blog-card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%;
+}
+
+.blog-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-card .card-body {
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.blog-card .card-text {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Team Section */
+.team-card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%;
+}
+
+.team-card img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-card .card-body {
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.team-card .card-text {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+/* contact */
+.contact-info p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info p i {
+  margin-right: 0.5rem;
+  color: #007bff;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #007bff;
+  padding: 20px 0;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .social-icons a {
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
